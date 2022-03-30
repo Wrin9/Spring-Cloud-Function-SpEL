@@ -1,4 +1,10 @@
 # Spring-Cloud-Function-SpEL
+## Spring-Cloud-Function-SpEL-POC
+### 此代码是利用sleep，确认是否存在漏洞，延时设置3s，可以按照所处环境修改延时时间。
+thank @f0ng
+pocsuite -r Spring-Cloud-Function-SpEL-POC.py -u url --verify
+![1648630190(1)](https://user-images.githubusercontent.com/54984589/160791484-72da9b49-36c2-41e9-9245-d586a5c74302.png)
+
 ## Spring-Cloud-Function-SpEL_POC_EXP
 ### 此代码是利用dnslog回显，确认是否存在漏洞，延时设置5s，可以按照所处环境修改延时时间。
 This code uses the dNSlog echo to confirm whether there is a vulnerability. The delay time is set to 5s, and the delay time can be modified according to the environment.
