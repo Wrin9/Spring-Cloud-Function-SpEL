@@ -42,7 +42,7 @@ class Spring_Cloud_Function_SpEL(POCBase):
                 data = "rush A"
                 try:
 
-                    resq = requests.post(vulurl, headers=headers, timeout=self.timeout, data=data,verify=False,proxies=px)
+                    resq = requests.post(vulurl, headers=headers, timeout=self.timeout, data=data,verify=False)
                 except Exception:
                     return False
                 else:
