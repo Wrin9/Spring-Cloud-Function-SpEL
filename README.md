@@ -5,7 +5,7 @@ thank @f0ng
 This program is to use sleep to confirm whether there is any vulnerability, set the delay time for 3s, and modify the delay time according to the environment.
 #### 此代码实现了无害化检测漏洞，不具备EXP功能。
 This program has realized the harmless detection vulnerability, does not have attack function.
-thank @f0ng
+
 pocsuite -r Spring-Cloud-Function-SpEL-POC.py -u url --verify
 ![1648630190(1)](https://user-images.githubusercontent.com/54984589/160791484-72da9b49-36c2-41e9-9245-d586a5c74302.png)
 
